@@ -1,0 +1,164 @@
+
+.mcard1, .mcard2,.mcard3 {
+    /* border: 2px solid black; */
+    height: 15rem;
+    width: 19rem;
+    padding:2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 1rem;
+}
+
+
+.second {
+    margin-top: 4rem;
+    /* border:2px solid blue; */
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.card-head {
+    margin-top: 5rem;
+    
+}
+
+.card-head p {
+    text-align: center;
+    /* border: 2px solid blue; */
+}
+
+.card2b {
+    background-color:#fdd831;
+    border-radius: 10rem;
+    margin-top: 5rem;
+    height: 3rem;
+    width: 11rem;
+    box-shadow: 0 0 1px 1px #e6c32a;
+    color: #5a4a06;
+    white-space: nowrap;
+    text-transform: none;
+
+}
+
+.card2b1 {
+    background-color:#fdd831;
+    border-radius: 10rem;
+    margin-top: 1rem;
+    height: 3rem;
+    width: 11rem;
+    box-shadow: 0 0 1px 1px #e6c32a;
+    color: #5a4a06;
+    white-space: nowrap;
+    text-transform: none;
+
+}
+
+.fsub {
+    margin-top: 8rem;
+    text-align: center;
+    
+}
+
+.fsub p{
+    width: 80%;
+    margin-left: 4rem;
+    line-height: 2;
+    
+
+}
+
+@media screen and (max-width: 900px) {
+
+     /* /* .second {
+        margin-left: 1rem;
+    }  */
+    .card-head {
+        margin-right: 3rem;
+    }  */
+
+    .card2b {
+        margin-top: 0rem;
+    }
+
+    .second {
+
+        /* border:2px solid blue; */
+        padding-left: 0rem;
+        padding-right: 0rem;
+        
+        
+         margin-left: 1rem; 
+    }
+
+    .card-head h3{
+        font-size: 1rem;
+
+    }
+    .mcard2 {
+        margin-top: 1rem;
+    }
+    .mcard3 {
+        margin-top: 1rem;
+    }
+    .fsub {
+        margin-right: 2rem;
+
+       
+    }
+
+    .fsub p {
+        font-size: 0.8rem;
+        margin-right: 2rem;
+    }
+    .mcard1, .mcard2,.mcard3 {
+        width: 17rem;
+    }
+    .card2b1 {
+        margin-left: -3rem;
+    }
+    .fsub {
+        text-align: center;
+        
+        /* justify-content: center; */
+        margin-left: 1rem;
+    }
+    .fsub1 {
+        width: 100%;
+        margin-top: 5rem;
+        
+    } 
+
+    .fsub p {
+        line-height: 2;
+        letter-spacing: 2;
+    }
+    .fsub {
+        margin-top: 4rem;
+        margin-left: 0rem;
+    }
+
+    .fsub p {
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    
+}
+
+
+/* .sub {
+    text-align: center;
+    width: 40rem;
+   
+} */
+
+
+
+
+/* @media screen and (max-width: 700px) {
+
+    .sub{
+             text-align: left;
+             margin-left: 0rem;;
+    }
+
+} */

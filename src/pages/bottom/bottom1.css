@@ -1,0 +1,78 @@
+.logo1 {
+    display: flex;
+    text-align: center;
+}
+
+.fi {
+    margin-top: 1.5rem;
+}
+
+.whole {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.b-image {
+    margin-top: -6rem;
+}
+
+.bi {
+    margin-top: 5rem;
+}
+
+.signature {
+    text-align: center;
+    margin-top: 5rem;
+    
+}
+
+.signature span {
+    display: block;
+    color: #fdd831;
+    font-size: 3rem;
+    
+    
+} 
+
+.sign-para {
+    
+    margin: 0 auto;
+    color: #2f2f2f;
+    font-weight: 100;
+    font-size: 2rem;
+    margin-bottom: 0.3em;
+    line-height: normal;
+    width:50%;
+
+}
+
+.sign-author {
+    display: block;
+    color: #484848;
+    font-size: 1.25rem;
+    margin-bottom: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+.founder {
+    color: #fdd831;
+    font-size: .75rem;
+    font-weight: 500;
+    -webkit-text-stroke: 1px #fdd831;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .b-image {
+        margin-top: -2rem;
+    }
+    .sign-para {
+        font-size: 1.5rem;
+        width: 80%;
+    }
+
+
+}

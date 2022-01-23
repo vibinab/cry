@@ -1,0 +1,35 @@
+.sdcard-main {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* border: 2px solid blue; */
+    height: 12rem;
+    width: 17rem;
+    padding: 2rem;
+}
+
+.secondcard-image {
+    height: 4rem;
+    width: 4rem;
+
+}
+
+.sdcard-sub1 {
+    position: absolute;
+    margin-top: -4rem;
+}
+
+.secondcard-icon {
+    margin-left: 4rem;
+}
+
+.sdcard-sub2 {
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 900px) { 
+    .sdcard-main {
+        margin-top: 4rem;
+    }
+}
+

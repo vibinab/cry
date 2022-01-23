@@ -1,0 +1,59 @@
+.section11 {
+
+    width: 80%;
+    word-wrap: break-word;
+    margin: 0 auto;
+    margin-top: 3rem;
+    
+
+}
+
+.happy {
+    color: #fdd831;
+    font-family: 'Gloria Hallelujah',cursive;
+    font-weight: 700;
+    
+}
+.decades {
+    font-size: 1.5rem;
+    /* border: 2px solid brown; */
+    width: 86%;
+}
+
+
+.cbutton {
+    border-radius: 15rem;
+    height: 2.5rem;
+    width: 10rem;
+    margin-left: 0.2rem;
+    background-color: #fdd831;
+    box-shadow: 0 0 1px 1px #e6c32a;
+    color: #5a4a06;
+    white-space: nowrap;
+    margin-top: 1rem;
+    text-transform: none;
+
+}
+
+.decade-image {
+    height: 30rem;
+    
+}
+
+@media only screen and (max-width: 900px) {
+    .decades {
+        font-size: 0.8rem;
+    }
+    .decades-1, .decades-2 {
+        text-align: center;
+        margin-right: 2rem;
+    }
+    .decade-image {
+        height: 15rem;
+        
+    }
+    .button {
+        margin-left: 2.3rem;
+    }
+    
+}

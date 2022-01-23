@@ -1,0 +1,78 @@
+.box {
+    margin-top: 4rem;
+
+}
+
+.award {
+    margin-top: 3rem;
+}
+
+
+
+.acard1 {
+    margin-left: 0.5rem;
+}
+
+.acard2 {
+    margin-left: 0.5rem;
+}
+
+.acard3 {
+    margin-left: 0.5rem;
+}
+.acard2 {
+    margin-left: 0.5rem;
+}
+
+
+@media screen and (max-width: 700px) {
+
+     /* .box {
+        margin-left: 1rem;
+    }  */
+    .acard1 {
+        margin:auto;
+        margin-bottom: 4rem;
+    }
+    .acard2 {
+        margin:auto;
+        margin-bottom: 4rem;
+    }
+    .acard3 {
+        margin:auto;
+        margin-bottom: 4rem;
+    }
+}
+
+
+
+.fb {
+    margin-top: 2rem;
+    
+    border-radius: 15rem;
+    width: 11rem;
+    height: 3rem;
+    background-color: #fdd831;
+    box-shadow: 0 0 1px 1px #e6c32a;
+    color: #5a4a06;
+    white-space: nowrap;
+    text-transform: none;
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .fb {
+        margin-top: 2rem;
+    }
+    .award {
+        margin-right: 2rem;
+    }
+    .award h3{
+        font-size: 1rem;
+    }
+    .cry {
+        margin-right: 1rem;
+
+    }
+}

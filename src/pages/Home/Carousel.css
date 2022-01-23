@@ -1,0 +1,130 @@
+.car-main
+{
+    margin-top: 4rem;
+}
+.banner-image2 {
+    background-color: #ffdd40;
+    height: 40vh;
+}
+
+
+
+.cimg {
+    height: 29rem;
+    width: 22rem;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+}
+
+.wholecar {
+    padding-left: 21rem;
+    padding-right: 21rem;
+    margin-top: -10rem;
+
+    /* border: 2px solid blue; */
+    
+}
+.main-slide {
+    /* border:2px solid pink; */
+}
+
+.slide1 {
+    /* border:2px solid red; */
+    height: 29rem;
+    padding: 2rem;
+    background:lightgreen;
+}
+.slide11 {
+    /* border:2px solid red; */
+    height: 29rem;
+    padding: 2rem;
+    background-color: #bb275a;
+}
+
+
+.slide1  h3 {
+    color: white;
+}
+
+.slide11  h3 {
+    color: white;
+}
+
+.slide1 p {
+    color: whitesmoke;
+}
+
+.slide11 p {
+    color: whitesmoke;
+}
+
+
+.slide-button1 {
+    background-color: #fdd831;
+    border-radius: 15rem;
+    text-transform: lowercase;
+    height: 3rem;
+    margin-top: 1rem;
+    
+}
+
+.slide2 {
+    border:2px solid violet;
+}
+
+/* .slick-arrow.slick-prev, .slick-arrow.slick-next {
+    
+    width:4rem;
+    height:4rem;
+    display: flex;
+    background-color: green;
+    border-radius: 10rem;
+    color: black;
+    margin-top: 2rem;
+    border:2px solid black;
+    
+
+
+} */
+
+/* .slick-arrow.slick-prev {
+
+margin-left: 12rem;
+}
+
+.slick-arrow.slick-next {
+    margin-right:10rem ;
+    
+}
+
+.slick-arrow {
+    display: flex;
+    margin-top:5rem;
+} */
+
+
+.car-section1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .slick-prev::before, .slick-next::before {
+    display: none;
+} */
+
+@media only screen and (max-width: 900px)
+{
+    .wholecar{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .slide1 {
+        font-size: 0.8rem;
+        height: 25rem;
+    }
+    .cimg {
+        width: 20rem;
+        height: 10rem;
+    }
+}

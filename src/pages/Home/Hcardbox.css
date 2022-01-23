@@ -1,0 +1,11 @@
+.hcardbox {
+    width: 14rem;
+    border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.cardline {
+    width: 10%;
+    color: yellow;
+}

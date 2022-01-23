@@ -1,0 +1,73 @@
+.sect1 {
+   
+    text-align:justify;
+   
+}
+.sect1 h3 {
+    line-height: 1.8rem;
+}
+
+.sect1 p {
+    font-weight: 300;
+    line-height: 1.8;
+    word-spacing: normal;
+    letter-spacing: normal;
+}
+
+.sect2 {
+    margin-top: 3rem;
+}
+.sect-main {
+    margin-top: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    
+}
+
+.s2 {
+    margin-left: 17rem;
+    border: 2px solid yellow; 
+    
+    border-radius: 2rem;
+    padding: 0.2rem;
+}
+.s1 {
+    margin-left: 4rem;
+    border: 2px solid yellow;
+    border-radius: 2rem;
+    padding: 0.2rem;
+}
+
+.level {
+    color: #fdd831;
+    font-family: 'Gloria Hallelujah',cursive;
+    font-weight: 700;
+}
+
+
+
+@media only screen and (max-width: 900px)
+{
+    .sect-main {
+
+        margin-left: 0rem;
+        margin-right: 2rem;
+
+    }
+    .s2 {
+        margin-left: 6rem;
+    }
+    .s1 {
+        margin-left: 2rem;
+    }
+    .sect1 p{
+        text-align: center;
+        margin-left: 1rem;
+    }
+    .sect1 h3 {
+        font-size: 0.8rem;
+        width: 100%;
+        margin-left: 2rem;
+    }
+    
+} 

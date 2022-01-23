@@ -1,0 +1,71 @@
+.ccard1 {
+    margin-left: 2rem;
+    /* border-bottom: 0.4rem solid #e5276a; */
+}
+
+.ccard2 {
+    margin-left: 2rem;
+}
+.ccard3 {
+    margin-left: 2rem;
+}
+
+
+.full { 
+    margin-top: 3rem;
+    z-index: 1000;
+    
+}
+
+.about-section2 {
+    margin-left: 12rem;
+    margin-right: 12rem;
+   
+    margin-top: 4rem;
+}
+
+.about-section2 h1 {
+    font-size: 1.8rem;
+    
+}
+
+.second-card {
+    margin-top: -6rem;
+    z-index: 0;
+    
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .about-section2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ccard1 {
+        margin:auto;
+    }
+    .ccard2 {
+        margin:auto;
+    }
+    .ccard3 {
+        margin:auto;
+    }
+    .full {
+        margin-left: 2rem;
+    }
+    .about-section2 h1 {
+        font-size: 1rem;
+        margin-top: 3rem;
+    }
+    .full {
+        margin-top: -0.7rem;
+    }
+
+
+    
+}
+
+
+

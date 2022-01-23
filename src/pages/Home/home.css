@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.sub-section {
+    /* text-align: center; */
+    margin-top: 6rem;
+    
+    color: black;
+    font-weight: 600;
+    font-size: 2.3rem;
+}
+
+.happy {
+    color: #fdd831;
+    font-weight: 600;
+    font-family: 'Gloria Hallelujah',cursive;
+}
+.child {
+    color: #fdd831;
+    font-weight: 600;
+    font-family: 'Gloria Hallelujah',cursive;
+}
+
+.hbutton {
+    border-radius: 15rem;
+
+    height: 3rem;
+    width: 12rem;
+    background-color: #fdd831;
+    /* box-shadow: 0 0 1px 1px #e6c32a; */
+    /* color: #5a4a06; */
+    white-space: nowrap;
+    text-transform: none;
+    border: none;
+    
+    /* margin-left: -12rem; */
+    margin-top: 25px;
+    margin-left: 6rem;
+
+}
+
+.firstimage {
+    width: 100%;
+}
+
+.secondimage {
+    width: 100%;
+}
+
+.home-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-top: -1rem;
+}
+
+
+.heart-icon {
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.3rem;
+    
+}
+
+.sub-section {
+    line-height: 1.1;
+}
+
+.sub-section p {
+    margin-left: 6rem;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    .sub-section {
+        font-size: 1.5rem;
+        text-align: center;
+
+    }
+
+    .sub-section p {
+        margin-left: 4rem;
+    }
+    .hbutton {
+        margin-top: 0.5rem;
+        margin-left: -2rem;
+    }
+
+
+}

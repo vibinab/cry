@@ -1,0 +1,50 @@
+.card-body {
+
+ height: 19rem;
+ width: 15rem;
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+text-align: center;}
+
+ .card-body {
+ border-radius: 15px; 
+ 
+ 
+
+ }
+
+ .card-content {
+     margin-top: 2rem;
+     
+ }
+
+ 
+
+.card-line {
+    width: 5rem;
+    margin-bottom: 8rem;
+    
+}
+
+/* .card-body-content {
+    display: block;
+}
+.card-body-content1 {
+    display: none;
+}
+
+
+.card-body:hover .card-body-content{
+display: none;
+    
+} 
+
+.card-body:hover .card-body-content1{
+    display: block;
+     */
+    
+/* }  */
+
+/* .card-body:hover .card-body-content1{
+    
+    
+}  */

@@ -1,0 +1,24 @@
+/* .outer {
+
+   
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid black;
+}  */
+
+
+.card-image {
+    height: 6rem;
+    width: 10rem;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .acard-detail{
+        width: 70%;
+        margin-left: 3rem;
+        
+
+    }
+
+}
